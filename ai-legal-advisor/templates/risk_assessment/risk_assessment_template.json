@@ -1,0 +1,30 @@
+{
+  "risk_assessment_id": "RISK-{{TIMESTAMP}}",
+  "overall_risk_score": "0.0 - 1.0",
+  "risk_category": "LOW | MEDIUM | HIGH | CRITICAL",
+  "risk_factors": [
+    {
+      "factor_type": "Citation Validity",
+      "description": "Are all cited laws currently active?",
+      "score": "0.0 - 1.0",
+      "details": "{{DETAILS}}"
+    },
+    {
+      "factor_type": "Hallucination Check",
+      "description": "Does the draft strictly entail the source text?",
+      "score": "0.0 - 1.0",
+      "details": "{{DETAILS}}"
+    },
+    {
+      "factor_type": "Regulatory Ambiguity",
+      "description": "Are there conflicting circulars or pending amendments?",
+      "score": "0.0 - 1.0",
+      "details": "{{DETAILS}}"
+    }
+  ],
+  "human_review_required": true,
+  "mitigation_steps": [
+    "{{ACTIONABLE_STEP_1}}",
+    "{{ACTIONABLE_STEP_2}}"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "base_document": "45/2019/QH14",
+  "amended_by": [],
+  "guided_by": [
+    {
+      "document_id": "145/2020/NĐ-CP",
+      "scope": "Working conditions and labor relations",
+      "specific_articles_guided": ["Article 90", "Article 91"]
+    },
+    {
+      "document_id": "152/2020/NĐ-CP",
+      "scope": "Foreign workers in Vietnam",
+      "specific_articles_guided": ["Article 152"]
+    }
+  ],
+  "supersedes": ["10/2012/QH13"]
+}

@@ -1,0 +1,15 @@
+{
+  "recommendation_id": "REC-{{TIMESTAMP}}",
+  "domain": "{{DOMAIN}}",
+  "manager_request": "{{ORIGINAL_REQUEST}}",
+  "draft_clause_vn": "{{VIETNAMESE_DRAFT}}",
+  "draft_clause_en": "{{ENGLISH_DRAFT}}",
+  "citations": [
+    {
+      "document_id": "{{DOCUMENT_ID}}",
+      "article": "{{ARTICLE_NUMBER}}",
+      "url": "{{OFFICIAL_URL}}"
+    }
+  ],
+  "explanation_en": "{{EXPLANATION_OF_LEGAL_BASIS}}"
+}

@@ -1,0 +1,18 @@
+{
+  "assessment_id": "COMP-REQ-{{TIMESTAMP}}",
+  "domain": "{{DOMAIN}}",
+  "target_clause": "{{ORIGINAL_CLAUSE_TEXT}}",
+  "compliance_status": "PASS | FAIL | WARNING",
+  "legal_basis": [
+    {
+      "document_id": "{{DOCUMENT_ID}}",
+      "article": "{{ARTICLE_NUMBER}}",
+      "status": "Active",
+      "relevance_summary": "{{SUMMARY_OF_HOW_IT_APPLIES}}"
+    }
+  ],
+  "identified_issues": [
+    "{{LIST_OF_VIOLATIONS_OR_RISKS}}"
+  ],
+  "recommended_amendment": "{{REWRITTEN_CLAUSE_IF_FAIL}}"
+}

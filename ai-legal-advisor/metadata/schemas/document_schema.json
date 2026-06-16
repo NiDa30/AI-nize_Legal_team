@@ -1,0 +1,18 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Legal Document Metadata",
+  "type": "object",
+  "properties": {
+    "document_id": { "type": "string", "description": "Official number (e.g., 45/2019/QH14)" },
+    "domain": { "type": "string", "enum": ["Labor", "Real Estate", "Accounting"] },
+    "type": { "type": "string", "enum": ["Law", "Decree", "Circular", "Resolution"] },
+    "issuer": { "type": "string", "description": "Issuing authority" },
+    "issue_date": { "type": "string", "format": "date" },
+    "effective_date": { "type": "string", "format": "date" },
+    "expiration_date": { "type": ["string", "null"], "format": "date" },
+    "status": { "type": "string", "enum": ["Active", "Expired", "Partially Expired", "Future"] },
+    "official_url": { "type": "string", "format": "uri" },
+    "tags": { "type": "array", "items": { "type": "string" } }
+  },
+  "required": ["document_id", "domain", "type", "effective_date", "status"]
+}
